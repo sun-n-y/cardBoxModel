@@ -1,1 +1,60 @@
 /* card box model */
+
+body {
+  font-family: sans-serif;
+  background-color: darkgrey;
+}
+
+/* card 1&2 */
+
+.card {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+}
+
+button {
+  padding: 8px 20px;
+  border: transparent;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+/* card 1 */
+.card-1 span {
+  background-color: lime;
+}
+.card-1 {
+  border-color: lime;
+}
+
+.card-1 button {
+  background-color: rgba(0, 255, 0, 0.178);
+  color: lime;
+}
+
+/* card 2 */
+.card-2 span {
+  background-color: royalblue;
+}
+.card-2 {
+  border-color: royalblue;
+}
+
+.card-2 button {
+  background-color: rgba(65, 105, 225, 0.24);
+  color: royalblue;
+}
